@@ -87,7 +87,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4 flex-col">
       <div className="max-w-md w-full bg-white p-8 shadow-md rounded-lg">
         <h2 className="text-2xl font-bold mb-6 text-center">
           Delete Your AlmadinApp Account
@@ -138,6 +138,13 @@ function App() {
           </div>
         )}
       </div>
+      <p className="text-gray-400 text-sm mt-4 max-w-md text-justify">
+        Please note that this action is irreversible. All your data will be
+        permanently deleted. If you have any questions or concerns, please
+        contact our support team: dolobytes@gmail.com. After your successful
+        account deletion, AlmadinApp will have no further data regarding your
+        profile, person or behaviour.
+      </p>
     </div>
   );
 }
